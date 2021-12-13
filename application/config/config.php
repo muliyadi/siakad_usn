@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //$config['base_url'] = 'http://localhost/akademika';
 //$config['base_url'] = 'http://192.168.1.19';
-$config['base_url'] = 'https://siakad2.usn.ac.id';
+$config['base_url'] = 'https://siakad.usn.ac.id';
 //$config['base_url'] = 'http://akademika.usn.ac.id';
 //
 //$config['base_url'] = 'http://siakadusn.linkpc.net/akademika';
