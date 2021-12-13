@@ -16,6 +16,11 @@ class Prodi extends CI_Controller {
         $this->gallery_path = realpath(APPPATH . '../doc/rps/');
         $this->gallery_path_url = base_url() . 'doc/rps/';
     }
+
+    public function sekolah(){
+        $datax['list_sekolah']=$this->Akademika_model->get_all('vsekolah');
+        $this->template->load($this->view, 'prodi/sekolah/list_sekolah', $datax);
+    }
      public function parsing($jadwal)
 	{
 	    $list=array();
