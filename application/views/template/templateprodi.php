@@ -83,38 +83,72 @@
                             </ul>
 
                         </li>
-                        <li class="dropdown"><a tabindex="-1" href="<?php echo base_url() ?>Prodi/lpa"> Perwalian </a>
-                        </li>
+
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pembayaran <b
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registrasi <b
                                     class="caret"></b></a>
                             <ul class="dropdown-menu">
 
                                 <li class="dropdown"><a href="<?php echo base_url(); ?>Prodi/lreg">UKT</a></li>
 
-
+                                <li class="dropdown"><a href="<?php echo base_url(); ?>Prodi/lreg_cuti">Cuti</a></li>
 
 
                             </ul>
 
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jadwal <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transaksi <b
+                                    class="caret"></b></a>
                             <ul class="dropdown-menu">
 
 
 
                                 <li class="dropdown"> <a href="<?php echo base_url(); ?>Prodi/ljm">Jadwal Kuliah</a>
                                 </li>
+                                <li class="dropdown"><a tabindex="-1" href="<?php echo base_url() ?>Prodi/lpa">
+                                        Perwalian </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Skripsi <b
+                                            class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>Prodi/list_daftar_judul"> Judul </a></li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/pendaftar_ujian"> Terdaftar </a>
+                                        </li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/ujian_terjadwal"> Terjadwal </a>
+                                        </li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/list_ujian/2">
+                                                Revisi </a></li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/list_ujian/3">
+                                                Diterima </a></li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/rekap_total_bimbingan_dosen"> Rekap
+                                                Jumlah
+                                                Mahasiswa Bimbingan Dosen </a></li>
+                                        <li class="dropdown"><a tabindex="-1"
+                                                href="<?php echo base_url() ?>prodi/flap_pengujian_dosen_prodi_ta">
+                                                Rekap Jumlah
+                                                Pengujian Dosen </a></li>
+
+                                    </ul>
+
+                                </li>
 
 
                             </ul>
 
                         </li>
-                        <li class="dropdown"><a href="<?php echo base_url(); ?>Prodi/lreg_cuti">Cuti</a></li>
+
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">KRS <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontrol <b class="caret"></b></a>
                             <ul class="dropdown-menu">
 
                                 <li class="dropdown">
@@ -126,8 +160,13 @@
                                 <li class="dropdown">
                                     <a tabindex="-1" href="<?php echo base_url() ?>Prodi/fudo"> REKAP KRS </a>
                                 </li>
-
-
+                                <li class="dropdown">
+                                    <a tabindex="-1" href="<?php echo base_url() ?>Prodi/rekap_absensi"> Absensi </a>
+                                </li>
+                                <li class="dropdown"><a
+                                        href="<?php echo base_url(); ?>Prodi/view_permintaan_akses_nilai">Permintaan
+                                        Akses Nilai</a></li>
+                                <li class=""><a href="<?php echo base_url(); ?>Prodi/beasiswa"><b>Beasiswa</b></a></li>
 
                             </ul>
 
@@ -137,23 +176,8 @@
                             <ul class="dropdown-menu">
 
                                 <li class="dropdown"><a href="<?php echo base_url(); ?>Prodi/list_kkn">KKN</a></li>
-                                <li class="dropdown">
-                                    <a tabindex="-1" href="<?php echo base_url() ?>Prodi/rekap_absensi"> Absensi </a>
-                                </li>
 
 
-
-                            </ul>
-
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nilai <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-
-
-                                <li class="dropdown"><a
-                                        href="<?php echo base_url(); ?>Prodi/view_permintaan_akses_nilai">Permintaan
-                                        Akses Nilai</a></li>
 
 
                             </ul>
@@ -164,31 +188,8 @@
 
 
 
-                        <li class=""><a href="<?php echo base_url(); ?>Prodi/beasiswa"><b>Beasiswa</b></a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Skripsi <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
 
-                                <li class="dropdown"><a tabindex="-1"
-                                        href="<?php echo base_url() ?>Prodi/list_daftar_judul"> Judul </a></li>
-                                <li class="dropdown"><a tabindex="-1"
-                                        href="<?php echo base_url() ?>prodi/pendaftar_ujian"> Terdaftar </a></li>
-                                <li class="dropdown"><a tabindex="-1"
-                                        href="<?php echo base_url() ?>prodi/ujian_terjadwal"> Terjadwal </a></li>
-                                <li class="dropdown"><a tabindex="-1" href="<?php echo base_url() ?>prodi/list_ujian/2">
-                                        Revisi </a></li>
-                                <li class="dropdown"><a tabindex="-1" href="<?php echo base_url() ?>prodi/list_ujian/3">
-                                        Diterima </a></li>
-                                <li class="dropdown"><a tabindex="-1"
-                                        href="<?php echo base_url() ?>prodi/rekap_total_bimbingan_dosen"> Rekap Jumlah
-                                        Mahasiswa Bimbingan Dosen </a></li>
-                                <li class="dropdown"><a tabindex="-1"
-                                        href="<?php echo base_url() ?>prodi/flap_pengujian_dosen_prodi_ta"> Rekap Jumlah
-                                        Pengujian Dosen </a></li>
 
-                            </ul>
-
-                        </li>
                         <li class=""><a tabindex="-1" href="<?php echo base_url() ?>Prodi/lyudisium"> Yudisium </a></li>
                         <li class=""><a tabindex="-1" href="<?php echo base_url() ?>Prodi/list_wisudawan"> Wisudawan
                             </a></li>
