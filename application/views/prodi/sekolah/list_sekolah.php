@@ -1,11 +1,11 @@
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class='panel-title'>DAFTAR REGISTRASI MAHASISWA TAHUN AJARAN : <?php echo $kd_tahun_ajaran; ?></h3>
+        <h3 class='panel-title'>DAFTAR SEKOLAH</h3>
     </div>
     <div class="panel-body">
         <div id="notifications"><?php echo $this->session->flashdata('msg'); ?></div>
-        Jadwal Registrasi : <?php echo $status_jspp ?>
-        <table id="test" class="table table-hover table-bordered table-striped">
+
+        <table id="table" class="table table-hover table-bordered table-striped">
             <thead>
                 <tr>
                     <th>NO</th>
