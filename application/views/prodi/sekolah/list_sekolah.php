@@ -9,6 +9,7 @@
             <thead>
                 <tr>
                     <th>NO</th>
+                    <td>BENTUK</td>
                     <td>NPSN </td>
                     <td>NAMA SEKOLAH</td>
                     <td>KECAMATAN</td>
@@ -26,6 +27,7 @@
                     ?>
                 <tr>
                     <td><?php echo $start++ ?></td>
+                    <td><?php echo $r->bentuk ?></td>
                     <td><?php echo $r->npsn ?></td>
                     <td><?php echo $r->nm_sekolah ?></td>
                     <td><?php echo $r->nm_kecamatan ?></td>
